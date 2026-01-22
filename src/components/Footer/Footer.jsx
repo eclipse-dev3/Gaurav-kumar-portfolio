@@ -40,7 +40,7 @@ const Footer = () => {
           {[
             { icon: <FaXTwitter />, link: "https://x.com/eclipse_devX" },
             { icon: <FaLinkedin />, link: "https://www.linkedin.com/in/gaurav-kumar-5b678437a/" },
-            { icon: <FaInstagram />, link: "https://www.instagram.com/itseclipsedev/?next=%2F" },
+            { icon: <FaInstagram />, link: "https://www.instagram.com/eclipsedev03" },
             { icon: <FaGithub />, link: "https://github.com/eclipse-dev3" },
 
           ].map((item, index) => (
