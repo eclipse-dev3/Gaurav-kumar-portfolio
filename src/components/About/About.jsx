@@ -45,16 +45,16 @@ export default function About() {
           </h3>
           <p className='text-base sm:text-lg md:text-lg text-gray-400 mb-10 mt-8 leading-relaxed'
           >I’m a frontend developer passionate about creating clean, responsive, and user-friendly web applications. I work with HTML, CSS, JavaScript, React, Redux Toolkit, and Tailwind CSS, and I’m always eager to keep learning, take on new challenges, and grow as a developer.</p>
-          <a href="file:///C:/Users/goura/Downloads/Gaurav_s_Resume.pdf"
-            target='_blank'
-            rel='noopener noreferrer'
-            className='inline-block text-white py-3 px-8 rounded-full text-lg font-bold transition duration-300 transform hover:scale-105'
+          <a
+            href="/Gaurav_Resume.pdf"
+            download="Gaurav_Kumar_Resume.pdf"
+            className="inline-block text-white py-3 px-8 rounded-full text-lg font-bold transition duration-300 transform hover:scale-105"
             style={{
               background: 'linear-gradient(90deg,#8245ec,#a855f7)',
               boxShadow: '0 0 2px #8245ec,0 0 2px #8245ec,0 0 40px #8245ec'
             }}
           >
-            <IoMdCloudDownload className='inline-block mr-3 mb-1 text-2xl' />
+            <IoMdCloudDownload className="inline-block mr-3 mb-1 text-2xl" />
             <span>Resume</span>
           </a>
         </div>
