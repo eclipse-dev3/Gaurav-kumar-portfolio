@@ -45,7 +45,7 @@ export default function About() {
           </h3>
           <p className='text-base sm:text-lg md:text-lg text-gray-400 mb-10 mt-8 leading-relaxed'
           >I’m a frontend developer passionate about creating clean, responsive, and user-friendly web applications. I work with HTML, CSS, JavaScript, React, Redux Toolkit, and Tailwind CSS, and I’m always eager to keep learning, take on new challenges, and grow as a developer.</p>
-          <a href="https://www.canva.com/design/DAG2IaRChCM/6kTPu2KEIZkvbbjqIFRULQ/edit?utm_content=DAG2IaRChCM&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
+          <a href="file:///C:/Users/goura/Downloads/Gaurav_s_Resume.pdf"
             target='_blank'
             rel='noopener noreferrer'
             className='inline-block text-white py-3 px-8 rounded-full text-lg font-bold transition duration-300 transform hover:scale-105'

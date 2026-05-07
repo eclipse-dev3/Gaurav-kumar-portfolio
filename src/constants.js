@@ -102,7 +102,7 @@ export const projects = [
     {
         id: 0,
         title: "🎵 Music APP (Spotify Clone)",
-        description: 'A responsive music streaming web app inspired by Spotify, featuring song search, play/pause, next/previous navigation, folder-based playlists, interactive seekbar, and volume control. Built with modern web technologies, it highlights my skills in DOM manipulation, event handling, and responsive UI design.',
+        description: 'MusicX is a Spotify-inspired music player built with pure HTML, CSS, and Vanilla JavaScript — no frameworks, no backend. Features real-time seekbar interaction, next/previous navigation, dynamic playlist rendering via DOM manipulation, and auto-play on track completion. Pixel-perfect dark UI, fully responsive from mobile to desktop.',
         image: Spotify,
         tags: ["HTML", "CSS", "JavaScript", "API"],
         github: "https://github.com/eclipse-dev3/MusicX-Player",
@@ -111,9 +111,9 @@ export const projects = [
     {
         id: 2,
         title: "📝 Note-Todo Combine.",
-        description: 'A responsive notes and to-dos web application designed for efficient daily organization. It allows users to create, edit, pin, lock, and delete notes, as well as manage to-do lists with completion tracking. Featuring secure note encryption, recycle bin management, and smooth UI transitions, the app demonstrates my skills in React.js, Tailwind CSS, component-based architecture, state management, and responsive design.',
+        description: 'OwnDocs is a local-first productivity app combining a Note Manager and Task Tracker — built with React.js and Tailwind CSS. Features include pin/unpin, soft-delete with Recycle Bin, debounced search, folder navigation, and offline persistence via LocalStorage. No backend. No login. Just a clean, responsive, animation-smooth experience.',
         image: NoteTodo,
-        tags: ['React.Js', 'Tailwind Css'],
+        tags: ['React.Js', 'Tailwind Css', 'React icons', 'LocalStorage'],
         github: "https://github.com/eclipse-dev3/Note-Task-manager",
         webapp: "https://owndocs.vercel.app",
     },
