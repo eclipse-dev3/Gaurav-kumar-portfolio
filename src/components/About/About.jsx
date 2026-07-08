@@ -46,10 +46,9 @@ export default function About() {
           </h3>
 
           <p className='text-[12px]   text-gray-400 mb-6 mt-5 leading-relaxed'>
-            I'm a frontend developer passionate about creating clean, responsive, and user-friendly web applications. I work with HTML, CSS, JavaScript, React, Redux Toolkit, and Tailwind CSS, and I'm always eager to keep learning, take on new challenges, and grow as a developer.
+            I'm a frontend developer passionate about creating clean, responsive, and user-friendly web applications. I work with React.js, Redux Toolkit, JavaScript, Tailwind CSS, HTML, CSS and I'm always eager to keep learning, take on new challenges, and grow as a developer.
           </p>
-
-          {/* ✅ Fixed: was missing opening <a> tag in original code */}
+          {/* resume */}
           <a
             href={Resume}
             download="Gaurav_kumar_Resume.pdf"
