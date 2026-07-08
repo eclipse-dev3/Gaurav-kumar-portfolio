@@ -3,7 +3,6 @@ import { FaXTwitter } from "react-icons/fa6";
 
 
 const Footer = () => {
-  // Smooth scroll function
   const handleScroll = (sectionId) => {
     const section = document.getElementById(sectionId);
     if (section) {
@@ -12,44 +11,43 @@ const Footer = () => {
   };
 
   return (
-    <footer className="text-white py-8 px-[12vw] md:px-[7vw] lg:px-[20vw]">
+    <footer className="text-white py-5 px-[12vw] md:px-[7vw] lg:px-[20vw]">
       <div className="container mx-auto text-center">
         {/* Name / Logo */}
-        <h2 className="text-xl font-semibold text-purple-500">Gaurav kumar</h2>
+        <h2 className="text-base font-semibold text-purple-500">Gaurav kumar</h2>
 
-        {/* Navigation Links - Responsive */}
-        <nav className="flex flex-wrap justify-center space-x-4 sm:space-x-6 mt-4">
+        {/* Navigation Links */}
+        <nav className="flex flex-wrap justify-center space-x-4 sm:space-x-5 mt-3">
           {[
             { name: "About", id: "about" },
             { name: "Skills", id: "skills" },
-            { name: "Projects", id: "projects" },
+            { name: "Projects", id: "Projects" },
             { name: "Education", id: "education" },
           ].map((item, index) => (
             <button
               key={index}
               onClick={() => handleScroll(item.id)}
-              className="hover:text-purple-500 text-sm sm:text-base my-1"
+              className="hover:text-purple-500 text-xs sm:text-sm my-1"
             >
               {item.name}
             </button>
           ))}
         </nav>
 
-        {/* Social Media Icons - Responsive */}
-        <div className="flex flex-wrap justify-center space-x-4 mt-6">
+        {/* Social Media Icons */}
+        <div className="flex flex-wrap justify-center space-x-4 mt-4">
           {[
             { icon: <FaXTwitter />, link: "https://x.com/eclipse_devX" },
             { icon: <FaLinkedin />, link: "https://www.linkedin.com/in/gaurav-kumar-5b678437a/" },
             { icon: <FaInstagram />, link: "https://www.instagram.com/eclipsedev03" },
             { icon: <FaGithub />, link: "https://github.com/eclipse-dev3" },
-
           ].map((item, index) => (
             <a
               key={index}
               href={item.link}
               target="_blank"
               rel="noopener noreferrer"
-              className="text-xl hover:text-purple-500 transition-transform transform hover:scale-110"
+              className="text-base hover:text-purple-500 transition-transform transform hover:scale-110"
             >
               {item.icon}
             </a>
@@ -57,7 +55,7 @@ const Footer = () => {
         </div>
 
         {/* Copyright Text */}
-        <p className="text-sm text-gray-400 mt-6">
+        <p className="text-xs text-gray-400 mt-4">
           © 2025 Gaurav Kumar. All rights reserved.
         </p>
       </div>
