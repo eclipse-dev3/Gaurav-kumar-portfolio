@@ -7,6 +7,7 @@ import javascript from "./assets/techLogo/javascript.png";
 import reactLogo from './assets/techLogo/reactjs.png';
 import reduxLogo from './assets/techLogo/redux.png';
 import tailwindLogo from './assets/techLogo/tailwindcss.png';
+import reactRouterLogo from './assets/techLogo/react_router.png'
 
 // Backend logos....
 
@@ -56,12 +57,13 @@ export const SkillsInfo = [
     {
         title: 'Frontend',
         skills: [
+            { name: 'React JS', logo: reactLogo },
+            { name: 'Redux-toolkit', logo: reduxLogo },
+            { name: 'React-router', logo: reactRouterLogo },
+            { name: 'JavaScript', logo: javascript },
+            { name: 'Tailwind CSS', logo: tailwindLogo },
             { name: 'HTML', logo: htmlLogo },
             { name: 'CSS', logo: cssLogo },
-            { name: 'JavaScript', logo: javascript },
-            { name: 'React JS', logo: reactLogo },
-            { name: 'Redux', logo: reduxLogo },
-            { name: 'Tailwind CSS', logo: tailwindLogo },
         ],
     },
     {
