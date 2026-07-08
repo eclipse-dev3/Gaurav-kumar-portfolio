@@ -2,6 +2,7 @@ import { Typewriter } from 'react-simple-typewriter'
 import Tilt from 'react-parallax-tilt'
 import ProfileImg from '../../constants'
 import { IoMdCloudDownload } from "react-icons/io";
+import Resume from '../../assets/Gaurav_s_Resume_Frontend.pdf'
 
 
 export default function About() {
@@ -50,8 +51,8 @@ export default function About() {
 
           {/* ✅ Fixed: was missing opening <a> tag in original code */}
           <a
-            href="/Gaurav_s_Resume.pdf"
-            download="Gaurav_s_Resume.pdf"
+            href={Resume}
+            download="Gaurav_kumar_Resume.pdf"
             className="inline-block text-white py-2 px-6 rounded-full text-base font-bold transition duration-300 transform hover:scale-105"
             style={{
               background: 'linear-gradient(90deg,#8245ec,#a855f7)',
