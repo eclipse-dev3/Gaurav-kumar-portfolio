@@ -102,15 +102,6 @@ export const SkillsInfo = [
 
 export const projects = [
     {
-        id: 0,
-        title: "🎵 Music APP (Spotify Clone)",
-        description: 'MusicX is a Spotify-inspired music player built with pure HTML, CSS, and Vanilla JavaScript — no frameworks, no backend. Features real-time seekbar interaction, next/previous navigation, dynamic playlist rendering via DOM manipulation, and auto-play on track completion. Pixel-perfect dark UI, fully responsive from mobile to desktop.',
-        image: Spotify,
-        tags: ["HTML", "CSS", "JavaScript", "API"],
-        github: "https://github.com/eclipse-dev3/MusicX-Player",
-        webapp: "https://ownmusicx.vercel.app",
-    },
-    {
         id: 2,
         title: "📝 Note-Todo Combine.",
         description: 'OwnDocs is a local-first productivity app combining a Note Manager and Task Tracker — built with React.js and Tailwind CSS. Features include pin/unpin, soft-delete with Recycle Bin, debounced search, folder navigation, and offline persistence via LocalStorage. No backend. No login. Just a clean, responsive, animation-smooth experience.',
@@ -118,6 +109,15 @@ export const projects = [
         tags: ['React.Js', 'Tailwind Css', 'React icons', 'LocalStorage'],
         github: "https://github.com/eclipse-dev3/Note-Task-manager",
         webapp: "https://owndocs.vercel.app",
+    },
+    {
+        id: 0,
+        title: "🎵 Music APP (Spotify Clone)",
+        description: 'MusicX is a Spotify-inspired music player built with pure HTML, CSS, and Vanilla JavaScript — no frameworks, no backend. Features real-time seekbar interaction, next/previous navigation, dynamic playlist rendering via DOM manipulation, and auto-play on track completion. Pixel-perfect dark UI, fully responsive from mobile to desktop.',
+        image: Spotify,
+        tags: ["HTML", "CSS", "JavaScript", "API"],
+        github: "https://github.com/eclipse-dev3/MusicX-Player",
+        webapp: "https://ownmusicx.vercel.app",
     },
 ]
 
