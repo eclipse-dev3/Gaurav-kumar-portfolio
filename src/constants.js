@@ -39,6 +39,8 @@ export default ProfileImg;
 
 import Spotify from './assets/spotify.png'
 import NoteTodo from './assets/NoteTodo.png'
+import Ecommerce from './assets/ecommerse.png'
+import AmazonClone from './assets/amazon.png'
 
 
 
@@ -102,7 +104,7 @@ export const SkillsInfo = [
 
 export const projects = [
     {
-        id: 2,
+        id: 0,
         title: "📝 Note-Todo Combine.",
         description: 'OwnDocs is a local-first productivity app combining a Note Manager and Task Tracker — built with React.js and Tailwind CSS. Features include pin/unpin, soft-delete with Recycle Bin, debounced search, folder navigation, and offline persistence via LocalStorage. No backend. No login. Just a clean, responsive, animation-smooth experience.',
         image: NoteTodo,
@@ -111,13 +113,31 @@ export const projects = [
         webapp: "https://owndocs.vercel.app",
     },
     {
-        id: 0,
+        id: 1,
         title: "🎵 Music APP (Spotify Clone)",
         description: 'MusicX is a Spotify-inspired music player built with pure HTML, CSS, and Vanilla JavaScript — no frameworks, no backend. Features real-time seekbar interaction, next/previous navigation, dynamic playlist rendering via DOM manipulation, and auto-play on track completion. Pixel-perfect dark UI, fully responsive from mobile to desktop.',
         image: Spotify,
         tags: ["HTML", "CSS", "JavaScript", "API"],
         github: "https://github.com/eclipse-dev3/MusicX-Player",
         webapp: "https://ownmusicx.vercel.app",
+    },
+    {
+        id: 2,
+        title: "🛒 Gaurav Store — E-Commerce Website",
+        description: "A fully responsive e-commerce storefront with dynamic product catalog, real-time cart management (LocalStorage-powered), quantity controls, discount pricing, and a contact page with map integration. Built entirely with vanilla JavaScript — no framework dependencies.",
+        image: Ecommerce,
+        tags: ["HTML", "CSS", "JavaScript", "LocalStorage"],
+        github: "https://github.com/eclipse-dev3/Gaurav-Store",
+        webapp: "https://gauravstore.vercel.app",
+    },
+    {
+        id: 3,
+        title: "🛒  Amazon UI Clone",
+        description: "A polished, front-end recreation of an Amazon-inspired e-commerce landing page — built with pure HTML and CSS. Features a fully styled navbar with search and cart sections, an intuitive category panel, multiple product showcase cards, and a clean, responsive layout that mirrors a real e-commerce interface.",
+        image: AmazonClone,
+        tags: ["HTML", "CSS", "Font Awesome"],
+        github: "https://github.com/eclipse-dev3/Amazon-UI",
+        webapp: "https://amazonui3.vercel.app",
     },
 ]
 
