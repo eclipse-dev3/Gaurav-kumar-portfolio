@@ -106,7 +106,7 @@ export const projects = [
     {
         id: 0,
         title: "📝 Note-Todo Combine.",
-        description: 'OwnDocs is a local-first productivity app combining a Note Manager and Task Tracker — built with React.js and Tailwind CSS. Features include pin/unpin, soft-delete with Recycle Bin, debounced search, folder navigation, and offline persistence via LocalStorage. No backend. No login. Just a clean, responsive, animation-smooth experience.',
+        description: 'OwnDocs combines a Note Manager and a Task Tracker into a single-page app, built around a local-first philosophy: fast, private, and fully usable offline. Its designed to feel like a small, well-considered product rather than a portfolio CRUD exercise — with real attention paid to empty states, keyboard flow, dark mode, and graceful failure handling..',
         image: NoteTodo,
         tags: ['React.Js', 'Tailwind Css', 'React icons', 'LocalStorage'],
         github: "https://github.com/eclipse-dev3/Note-Task-manager",
