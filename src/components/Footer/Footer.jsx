@@ -38,7 +38,7 @@ const Footer = () => {
         <div className="flex flex-wrap justify-center space-x-4 mt-4">
           {[
             { icon: <FaXTwitter />, link: "https://x.com/eclipse_devX" },
-            { icon: <FaLinkedin />, link: "https://www.linkedin.com/in/gaurav-kumar-5b678437a/" },
+            { icon: <FaLinkedin />, link: "https://www.linkedin.com/in/gauravkumar003" },
             { icon: <FaInstagram />, link: "https://www.instagram.com/eclipsedev03" },
             { icon: <FaGithub />, link: "https://github.com/eclipse-dev3" },
           ].map((item, index) => (
