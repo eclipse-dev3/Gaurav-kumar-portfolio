@@ -73,7 +73,7 @@ export default function Navbar() {
                         <FaGithub size={20} />
                     </a>
                     <a
-                        href="https://www.linkedin.com/in/gaurav-kumar-5b678437a/"
+                        href="https://www.linkedin.com/in/gauravkumar003"
                         target="_blank"
                         className="text-gray-300 hover:text-[#8245ec]"
                     >
